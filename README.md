@@ -1,4 +1,6 @@
 # ARREGLOS
 ARREGLOS
-python:
 
+python:
+El método insertar_ventas está diseñado para actualizar el monto de ventas para un departamento y un mes específicos. Primero, el método valida si el nombre del departamento proporcionado es válido, comprobando que esté en la lista de departamentos definidos. Si el departamento no es válido, se imprime un mensaje de error y el método termina para evitar errores. Luego, el método verifica que el valor del mes esté dentro del rango permitido, que es de 0 a 11, correspondiente a los 12 meses del año. Si el mes no está en este rango, se imprime un mensaje de error y el método finaliza.
+Antes de realizar cualquier actualización, el método imprime el estado actual de las ventas utilizando el método mostrar_ventas, lo que permite visualizar cómo están los datos antes del cambio. Luego, se utiliza el método index para encontrar la posición del departamento en la lista de departamentos, lo que permite identificar la sublista correcta dentro del atributo ventas donde se deben hacer los cambios. Una vez encontrado el índice del departamento, el método actualiza el monto de ventas en la sublista correspondiente al mes especificado. Finalmente, el método imprime un mensaje confirmando que las ventas han sido actualizadas y muestra el nuevo estado de las ventas para verificar los cambios realizados.
